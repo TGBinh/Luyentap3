@@ -139,6 +139,7 @@ void Sapxep(Phieu &K)
 void Suatt(Phieu &K)
 {
      strcpy(K.Maphieu, "2023");
+     strcpy(K.Ngaylap, "18-12-2023");
 }
 
 int main()
