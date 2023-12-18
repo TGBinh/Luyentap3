@@ -136,6 +136,11 @@ void Sapxep(Phieu &K)
 		}
 	}
 }
+void Suatt(Phieu &K)
+{
+     strcpy(K.Maphieu, "2023");
+}
+
 int main()
 {
 	Phieu K;
@@ -146,4 +151,6 @@ int main()
 	
 	Sapxep(K);
 	K.xuat();
+	
+	Suatt(K);
 }
