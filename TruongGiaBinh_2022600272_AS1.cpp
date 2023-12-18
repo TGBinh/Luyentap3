@@ -112,7 +112,14 @@ void Dem(Phieu K)
 			dem ++;
 		}
 	}
-	cout<<dem<<endl;
+	if(dem == 0)
+	{
+           cout<<"Khong co sp nao co so luong nho hon 80";
+    }
+    else
+    {
+           cout<<"So sp co so luong nho hon 80 la: "<<dem<<endl;
+    }
 }
 void Sapxep(Phieu &K)
 {
@@ -135,7 +142,6 @@ int main()
 	K.nhap();
 	K.xuat();
 	
-	cout<<"\nSo sp co so luong nho hon 80: ";
 	Dem(K);
 	
 	Sapxep(K);
